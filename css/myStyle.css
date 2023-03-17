@@ -1,0 +1,48 @@
+#sideNav {
+    background-color: rgb(10, 72, 64) !important;
+}
+
+#apellido {
+    color: rgb(10, 72, 64) !important;
+}
+
+#mail {
+    color: rgb(10, 72, 64) !important
+}
+
+#periodo {
+    color: rgb(10, 72, 64) !important
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    /* ajustar según el ancho máximo deseado */
+}
+
+.image-grid img {
+    max-width: 300px;
+    /* ajustar según el ancho máximo deseado */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-out;
+}
+
+.image-grid img:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .image-grid img {
+        max-width: 100%;
+    }
+}
+
+p {
+    text-align: justify !important;
+}
